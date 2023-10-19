@@ -1,12 +1,11 @@
 <?php
 
-use Watson\BootstrapForm\BootstrapForm;
-
 use Collective\Html\FormBuilder;
 use Collective\Html\HtmlBuilder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Config\Repository;
-use Illuminate\Eloquent\Database\Model;
 use PHPUnit\Framework\TestCase;
+use Watson\BootstrapForm\BootstrapForm;
 
 class BootstrapFormTest extends TestCase
 {
